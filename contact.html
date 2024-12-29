@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      form {
+        background-color: #9ba4b5;
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        margin: 30px auto;
+      }
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      label {
+        font-weight: bold;
+      }
+      input {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #394867;
+        color: white;
+      }
+      textarea {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #394867;
+        color: white;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #394867;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #212a3e;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+        <div class="logo_div">
+            <img src="./images/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="nav_link_div">
+            <a href="./index.html" class="nav_links">Home</a>
+            <a href="./aboutUs.html" class="nav_links">About Us</a>
+            <a href="./Member.html" class="nav_links">Membership</a>
+            <a href="./gallery.html" class="nav_links">Gallery</a>
+            <a href="./login.html" class="nav_links">Login</a>
+            <a href="./registration.html" class="nav_links">Register</a>
+            <a href="./contact.html" class="nav_links">Contact Us</a>
+        </div>
+    </header>
+
+
+    <div class="contact-form">
+      <form action="#" method="post">
+        <h2 style="color: white">Contact Us</h2>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="4"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+        <div><img src="./images/logo.png" alt="" style="width: 200px;" class="footer_img"></div>
+
+        <div class="footer_link_div">
+            <a href="./index.html" class="nav_links">Home</a>
+            <a href="./aboutUs.html" class="nav_links">About Us</a>
+            <a href="./Member.html" class="nav_links">Membership</a>
+            <a href="./gallery.html" class="nav_links">Gallery</a>
+            <a href="./login.html" class="nav_links">Login</a>
+            <a href="./registration.html" class="nav_links">Register</a>
+            <a href="./contact.html" class="nav_links">Contact Us</a>
+
+
+
+        </div>
+    </footer>
+  </body>
+</html>

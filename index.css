@@ -6,8 +6,6 @@
 }
 
 
-
-
 body {
     padding: 0;
     margin: 0px;
@@ -65,10 +63,6 @@ body {
 
 
 
-
-
-
-
 /*                       hero section           */
 
 .hero_div {
@@ -108,62 +102,6 @@ body {
     font-size: 1.2rem;
     margin-top: 0;
 }
-
-
-/* .hero_div {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    padding: 10% 10% 0% 15%;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.hero_div::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('./images/banner4.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: blur(3px);
-    z-index: 1;
-}
-
-.hero_div>* {
-    position: relative;
-    z-index: 2;
-}
-
-
-
-.banner_heading {
-    color: var(--primary-color);
-    margin-bottom: 0px;
-    font-size: 50px;
-    text-shadow: 4px 11px 3px rgba(0, 0, 0, 0.51);
-    width: 100%;
-
-}
-
-.banner_sub_heading {
-    color: var(--secondary-color);
-    margin-top: 0px;
-    width: 100%;
-    text-align: left;
-    font-size: large;
-    font-weight: bold;
-    padding-left: 10%;
-} */
-
-
-
-
-
 
 /*          card          1     */
 
@@ -222,10 +160,6 @@ body {
 }
 
 
-
-
-
-
 /*          card          2 (reverse)     */
 
 
@@ -236,17 +170,6 @@ body {
     margin: 60px auto;
     column-gap: 5%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*   multi card    section */
@@ -313,8 +236,6 @@ body {
 }
 
 
-
-
 /*               footer */
 
 .footer {
@@ -322,7 +243,7 @@ body {
     padding: 20px 30px;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -332,7 +253,7 @@ body {
 .footer_link_div {
    display: flex;
    align-items: center;
-   gap: 10px;
+   
 }
 
 .footer_links{
@@ -395,7 +316,6 @@ body {
     .footer {
         
         display: grid;
-        
         grid-template-columns: 50% 50%;
         align-items: center;
         justify-content: center;

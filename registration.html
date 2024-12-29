@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Registration Form</title>
     <link rel="stylesheet" href="./index.css">
-
     <style>
     
-        form {
+    form {
             background-color: #9BA4B5;
             backdrop-filter: blur(10px);
             padding: 20px;
@@ -46,7 +44,7 @@
         button:hover {
             background-color: #212A3E;
         }
-    </style>
+</style>
 </head>
 <body>
 
@@ -64,18 +62,21 @@
             <a href="./contact.html" class="nav_links">Contact Us</a>
         </div>
     </header>
-
+    
     <form action="/submit_registration" method="post">
-        <h2>LogIn Form</h2>
+        <h2>Registration Form</h2>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
         
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password" required><br><br>
         
-        <button type="submit">Login</button>
+        <button type="submit">Register</button>
 
-        <p>Dont have account? <a href="./registration.html">Register</a></p>
+        <p>already have account? <a href="./login.html">Sign in</a></p>
     </form>
 
     <footer class="footer">
